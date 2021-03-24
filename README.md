@@ -6,17 +6,17 @@ I am a Team Lead with 3+ years of experince. I use GitHub primarily for training
 
 ## COVID-19 Visualizer
 
-This is a simple tool to visualize a number of metrics related to the COVID-19 pandemic (number of cases, number of vaccines delivered, number of deaths etc). The tool can be accessed [https://asjblog.shinyapps.io/COVID-19/](here).
+This is a simple tool to visualize a number of metrics related to the COVID-19 pandemic (number of cases, number of vaccines delivered, number of deaths etc). The tool can be accessed [here](https://asjblog.shinyapps.io/COVID-19/).
 
-Repositories: [https://github.com/theasjblog/covid19_package](backend) and [https://github.com/theasjblog/covid19Visualizer_app](frontend).
+Repositories: [backend](https://github.com/theasjblog/covid19_package) and [frontend](https://github.com/theasjblog/covid19Visualizer_app).
 
 Language: `R/RShiny`.
 
 ## TSS Planner
 
-A tool to plan a multisport, tipically triathlon, training week using Joe Friel's TSS and Matt Fitzgerlad's 80/20 principles. The tool can be accessed [https://asjblog.shinyapps.io/TSSPlanner/](here).
+A tool to plan a multisport, tipically triathlon, training week using Joe Friel's TSS and Matt Fitzgerlad's 80/20 principles. The tool can be accessed [here](https://asjblog.shinyapps.io/TSSPlanner/).
 
-Repositories: [https://github.com/theasjblog/tssPlanner_package](backend) and [https://github.com/theasjblog/tssPlanner_app](frontend).
+Repositories: [backend](https://github.com/theasjblog/tssPlanner_package) and [frontend](https://github.com/theasjblog/tssPlanner_app).
 
 Language: `R/RShiny`.
 
@@ -24,7 +24,7 @@ Language: `R/RShiny`.
 
 A tool to analyze `.tcx` files from training devices (i.e. Garmin watches).
 
-Repositories: [https://github.com/theasjblog/tcx_package](backend) and [https://github.com/theasjblog/tcx_app](frontend).
+Repositories: [backend](https://github.com/theasjblog/tcx_package) and [frontend](https://github.com/theasjblog/tcx_app).
 
 Language: `R/RShiny`.
 
@@ -38,7 +38,7 @@ These two tools are related. In the future, I plan to harmonise the objects unde
 
 Yet another sudoku solver. The solution itself is based on Professor Thorsten Altenkirch recursion approach. The rest of the repository is a prototype to allow solving from a picture taken from a device. Currently it has been tested only on Microsoft Surface Go. Numbers recognition is based on a simple machine learning categorisation model. Future developing plans include adding neural network to better "read" the images.
 
-Repository: [https://github.com/theasjblog/sudokuSolver_py](Jupyter Notebook).
+Repository: [Juyter Notebook](https://github.com/theasjblog/sudokuSolver_py).
 
 Language: `Python`
 
