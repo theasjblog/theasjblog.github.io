@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+# Background
 
-You can use the [editor on GitHub](https://github.com/theasjblog/theasjblog.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I am a Team Lead with 3+ years of experince. I use GitHub primarily for training and to build small-ish personal projects.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Projects
 
-### Markdown
+## COVID-19 Visualizer
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This is a simple tool to visualize a number of metrics related to the COVID-19 pandemic (number of cases, number of vaccines delivered, number of deaths etc). The tool can be accessed [https://asjblog.shinyapps.io/COVID-19/](here).
 
-```markdown
-Syntax highlighted code block
+Repositories: [https://github.com/theasjblog/covid19_package](backend) and [https://github.com/theasjblog/covid19Visualizer_app](frontend).
 
-# Header 1
-## Header 2
-### Header 3
+Language: `R/RShiny`.
 
-- Bulleted
-- List
+## TSS Planner
 
-1. Numbered
-2. List
+A tool to plan a multisport, tipically triathlon, training week using Joe Friel's TSS and Matt Fitzgerlad's 80/20 principles. The tool can be accessed [https://asjblog.shinyapps.io/TSSPlanner/](here).
 
-**Bold** and _Italic_ and `Code` text
+Repositories: [https://github.com/theasjblog/tssPlanner_package](backend) and [https://github.com/theasjblog/tssPlanner_app](frontend).
 
-[Link](url) and ![Image](src)
-```
+Language: `R/RShiny`.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## TCX Analyzer
 
-### Jekyll Themes
+A tool to analyze `.tcx` files from training devices (i.e. Garmin watches).
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/theasjblog/theasjblog.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Repositories: [https://github.com/theasjblog/tcx_package](backend) and [https://github.com/theasjblog/tcx_app](frontend).
 
-### Support or Contact
+Language: `R/RShiny`.
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Future plans for TSS Planner and TCX Analyzer
+
+These two tools are related. In the future, I plan to harmonise the objects underlying the two packges and to create a platform to plan and analyse trainig sessions and races. This will require:
+- Possibly rewrite in `Python/JS`
+- Create a database
+
+## Sudoku solver
+
+Yet another sudoku solver. The solution itself is based on Professor Thorsten Altenkirch recursion approach. The rest of the repository is a prototype to allow solving from a picture taken from a device. Currently it has been tested only on Microsoft Surface Go. Numbers recognition is based on a simple machine learning categorisation model. Future developing plans include adding neural network to better "read" the images.
+
+Repository: [https://github.com/theasjblog/sudokuSolver_py](Jupyter Notebook).
+
+Language: `Python`
+
